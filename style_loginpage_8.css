@@ -1,0 +1,151 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#main{
+    height: 600px;
+    width: 1100px;
+    /* border: 2px solid black; */
+    margin: 70px 170px;
+    display: inline-flex;
+    box-shadow: 0px 0px 200px black;
+    padding: 5px;
+}
+
+#main #left{
+    width: 50%;
+    height: 99%;
+    /* border: 1px solid green; */
+}
+
+#main #left h3{
+    text-align: left;
+    margin: 15px 25px;
+    font-size: 28px;
+}
+
+#main #left #leftimg{
+    height: 82%;
+    width: 100%;
+    margin: 50px auto;
+    /* box-shadow: 0px 0px 500px rgba(128, 128, 128, 0.29); */
+}
+
+#main #right{
+    height: 99%;
+    width: 50%;
+    /* border: 2px solid red; */
+}
+
+#main #right h5{
+    text-align: right;
+    color: grey;
+    font-size: 15px;
+    margin: 15px 15px;
+}
+
+#main #right span{
+    text-align: right;
+    color: rgb(186, 19, 186);
+    font-size: 15px;
+    margin-right: 5px;
+}
+
+#main #right #loginform{
+    height: 300px;
+    width: 480px;
+    /* border: 1px solid yellowgreen; */
+    margin: 60px auto;
+    padding: 5px;
+    position: relative;
+}
+
+#main #right #loginform h1{
+    margin: 5px 21px;
+}
+
+#main #right #loginform p{
+    color: gray;
+    margin: 5px 21px;
+}
+
+#main #right #loginform .imglogo{
+    height: 20px;
+    width: 20px;
+}
+
+#main #right #loginform #logo1{
+    position: absolute;
+    top: 111px;
+    left: 28px;
+}
+
+#main #right #loginform #logo2{
+    position: absolute;
+    top: 187px;
+    left: 28px;
+}
+
+#main #right #loginform input[type="email"],input[type="password"]{
+    height: 45px;
+    width: 90%;
+    margin: 5px 20px;
+}
+
+#main #right #loginform input[type="submit"]{
+    height: 45px;
+    width: 30%;
+    border: none;
+    outline: none;
+    background-color: rgb(145, 23, 145);
+    color: white;
+    border-radius: 50px;
+    margin: 10px 20px 10px 30px;
+
+}
+
+#main #right #loginform label{
+    margin-left: 100px;
+    font-size: 12px;
+    color: grey;
+}
+
+#main #right #logoprt{
+    width: 250px;
+    height: 50px;
+    /* border: 1px solid green; */
+    display: inline-flex;
+    margin: 10px 120px;
+    padding: 1px;
+}
+
+#main #right #logoprt #logoimg .logo{
+    height: 20px;
+    width: 20px;
+    margin: 2px 8px;
+}
+
+#main #right #logoprt #text{
+    margin: 10px auto;
+}
+
+#main #right #logoprt #logoimg #logoimg1{
+    background-color: rgb(228, 57, 57);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#main #right #logoprt #logoimg #logoimg2{
+    background-color: rgb(29, 109, 240);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#main #right #logoprt #logoimg #logoimg3{
+    background-color: rgb(18, 149, 14);
+    padding: 5px;
+    border-radius: 5px;
+}
+

@@ -1,0 +1,559 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* body{
+    position: relative;
+} */
+
+header{
+    height: 150px;
+    width: 100%;
+    /* border: 1px solid black; */
+    position: fixed;
+}
+header #upperhead{
+    
+    height: 70px;
+    background-color: black;
+    color: white;
+    padding: 5px;
+}
+header #upperhead #headtextbtn{
+    height: 50px;
+    width: 500px;
+    /* border: 1px solid grey; */
+    margin: 5px auto;
+    padding: 5px;
+    font-size: 18px;
+}
+#header #upperhead #headtextbtn input[type="button"]{
+    height: 35px;
+    width: 150px;
+    padding: 2px;
+    background-color: rgb(221, 72, 72);
+    border: none;
+    outline: none;
+    color: white;
+    margin: 4px auto;
+    border-radius: 50px;
+    font-size: 16px;
+}
+header #upperhead #headtextbtn #btnannounce,label{
+    margin: 5px;
+}
+
+header #lowerhead{
+    height: 62px;
+    background-color:rgb(221, 72, 72);
+    padding: 4px;
+    /* margin: 2px 100px; */
+
+}
+header #lowerhead #lowerheadmain{
+    /* border: 3px solid grey; */
+    height: 60px;
+    width: 1000px;
+    /* margin:auto; */
+    margin:2px auto;
+    display: inline-flex;
+    position: relative;
+}
+
+header #lowerhead #lowerheadmain #logoimg{
+    height: 55px;
+    width: 200px;
+    /* border: 1px solid green; */
+    margin: 2px 70px;
+    padding: 2px;
+}
+
+header #lowerhead #lowerheadmain #logoimg #logo1{
+    height: 40px;
+    width: 80px;
+    /* border: 1px solid green; */
+    margin: 2px auto;
+}
+header #lowerhead #lowerheadmain #logoimg span{
+    color: white;
+    font-size: 25px;
+    font-weight: 800;
+    position: absolute;
+    top: 8px;
+    left: 170px;
+}
+/* header #lowerhead #lowerheadmain .logoimg #logo1,span{
+    margin: 2px auto;
+} */
+header #lowerhead #lowerheadmain nav{
+    width: 600px;
+    height: 60px;
+    /* border: 1px solid black; */
+    margin: 2px 5px 2px 60%;
+    color: white;
+}
+header #lowerhead #lowerheadmain nav #navbar{
+    list-style: none;
+    padding: 5px;
+    display: inline-flex;
+    margin: 12px;
+}
+header #lowerhead #lowerheadmain nav #navbar li a{
+    margin: auto 25px;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+
+header #lowerhead #lowerheadmain nav #navbar li a:hover{
+    background-color: rgb(9, 5, 5);
+    padding: 8px 10px;
+    border-radius: 5px;
+    height: 22px;
+    width: 80px;
+}
+header #lowerhead #lowerheadmain #logoimg1 #logo2{
+    height: 34px;
+    width: 34px;
+    /* border: 1px solid green; */
+    margin: 2px;
+}
+header #lowerhead #lowerheadmain #logoimg1{
+    padding: 2px;
+    /* border: 1px solid green; */
+    margin: 3px;
+}
+
+/* ------------- main part start here -------------- */
+/* section 1 styling */
+
+main #section1{
+    /* margin-top: 100px; */
+    /* height: 70vh; */
+    height: 500px;
+    /* border: 1px solid green; */
+    background-image: url("../Img/bgimagenature.jpg");
+    background-position: fixed;
+    background-size: 100% 100%;
+}
+
+main #section1 #section1_content{
+    height: 400px;
+    width: 500px;
+    /* border: 1px solid black; */
+    margin: 120px 65px;
+    color: white;
+    padding: 10px;
+}
+main #section1 #section1_content h2{
+    font-size: 45px;
+    font-weight: 800;
+    margin: 80px 0px 20px 0px;
+}
+main #section1 #section1_content p{
+    font-size: 16px;
+    text-align: justify;
+    margin: 20px 0px;
+}
+main #section1 #section1_content #btnshop{
+    height: 40px;
+    width: 180px;
+    background-color: rgba(128, 128, 128, 0);
+    color: white;
+    border: 1px solid white;
+    outline: none;
+    border-radius: 5px;
+    margin: 10px auto;
+    font-size: 18px;
+    font-weight: 600;
+}
+main #section1 #section1_content #btnshop:hover{
+    background-color: white;
+    color: black;   
+}
+
+/* section 2 styling */
+
+main #section2{
+    height: 180px;
+    /* background-color: wheat; */
+    padding: 10px;
+    display: inline-flex;
+}
+
+main #section2 #section2_content1{
+    height:70px;
+    width: 60%;
+    /* border: 1px solid green; */
+    padding: 20px;
+    margin: 30px 0px 0px 60px;
+}
+main #section2 #section2_content1 p{
+    font-size: 16px;
+}
+main #section2 #section2_content1 h1{
+    font-size: 40px;
+}
+
+main #section2 #section2_content2{
+    height:70px;
+    width: 40%;
+    /* border: 1px solid green; */
+    padding: 20px;
+    margin: 30px 55px 0px 0px;
+}
+main #section2 #section2_content2 p{
+    font-size: 15px;
+}
+
+main #section2_boxs{
+    height: 500px;
+    /* border: 3px solid red; */
+    background-color: whitesmoke;
+    padding: 5px;
+}
+
+main #section2_boxs .box{
+    width: 300px;
+    height: 400px;
+    background-color: whitesmoke;
+    margin: 10px;
+    display: inline-table;
+    padding: 25px;
+    /* border: 1px solid green; */
+}
+
+main #section2_boxs #s2b1{
+    margin: 10px 20px 10px 150px;
+}
+
+main #section2_boxs #s2b2{
+    margin: 10px 20px 10px 20px;
+}
+
+main #section2_boxs #s2b2{
+    margin: 10px 30px 10px 20px;
+}
+
+main #section2_boxs .box p{
+    font-size: 16px;
+    color: grey;
+    margin-left: 10px;
+    
+}
+main #section2_boxs .box #box01,#box02,#box03{
+    height: 300px;
+    width: 300px;
+    box-shadow: 0px 0px 50px grey;
+    border-radius: 5px;
+    
+}
+
+/* -------------- section 3 styling--------------------- */
+
+main #section3{
+    /* height: 70vh; */
+    height: 600px;
+    /* border: 1px solid green; */
+    background-image: url("../Img/mountains.jpg");
+    background-position: fixed;
+    background-size: 100% 100%;
+}
+
+main #section3 #section3_content{
+    height: 400px;
+    width: 500px;
+    /* border: 1px solid black; */
+    margin: 0px 150px 50px 850px;
+    color: white;
+    padding: 10px;
+}
+main #section3 #section3_content h2{
+    font-size: 48px;
+    font-weight: 600;
+    text-align: right;
+    margin: 100px 0px 20px 0px;
+}
+main #section3 #section3_content p{
+    font-size: 19px;
+    text-align: justify;
+    margin: 20px 0px;
+}
+main #section3 #section3_content #btnreadout{
+    height: 40px;
+    width: 180px;
+    background-color:white;
+    /* color: white; */
+    /* border: 1px solid white; */
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin: 8px 170px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+main #section3 #section3_content #btnreadout:hover{
+    background-color: rgb(221, 72, 72);
+    color: white;
+}
+
+/* --------------- section 4 styling------------- */
+
+main #section4{
+    height: 900px;
+    /* border: 3px solid red; */
+    /* background-color: rgba(128, 128, 128, 0.128); */
+    padding: 10px;
+    margin: 0px auto;
+    /* box-shadow: 0px 0px 10px red; */
+}
+
+main #section4 p{
+    font-size: 18px;
+    margin: 40px 0px 10px 70px;
+}
+
+main #section4 h1{
+    font-size: 50px;
+    margin: 10px 0px 10px 70px;
+}
+
+main #section4 .section4box{
+    width: 300px;
+    height: 400px;
+    /* background-color: whitesmoke; */
+    margin: 10px;
+    display: inline-table;
+    padding: 25px;
+    /* border: 1px solid green; */
+}
+main #section4 #s4b1{
+    margin: 10px 10px 10px 60px;
+}
+
+main #section4 #s4b2{
+    margin: 10px auto 10px auto;
+}
+
+main #section4 #s4b2{
+    margin: 10px auto 10px auto;
+}
+
+main #section4 .section4box p{
+    font-size: 16px;
+    /* color: grey; */
+    margin-left: 10px;
+    
+}
+main #section4 .section4box #S4box1,#S4box2,#S4box3{
+    height: 450px;
+    width: 380px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 50px grey;
+}
+
+main #section4 .section4box .text{
+    text-align: center;
+    font-size: 18px;
+    margin-top: 4px;
+}
+
+main #section4 .section4box h4{
+    text-align: center;
+    font-size: 25px;
+    margin: 0px auto;
+}
+
+main #section4 .section4box .detailsBtn{
+    height: 40px;
+    width: 100px;
+    color: white;
+    background-color:rgb(221, 72, 72);
+    font-weight: 700;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    margin: 5px 140px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+main #section4 .section4box .detailsBtn:hover{
+    background-color: black;
+    color: white;
+}
+
+main #section4 #btnproduct{
+    height: 40px;
+    width: 200px;
+    color: white;
+    background-color:black;
+    font-weight: 700;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    /* margin: 40px 630px; */
+    margin: 40px 610px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+main #section4 #btnproduct:hover{
+    background-color: rgb(221, 72, 72);
+    color: white;
+}
+
+/* --------- section 5 Styling --------- */
+
+main #section5{
+    height: 500px;
+    width: 950px;
+    /* background-color: rgba(28, 101, 40, 0.58); */
+    /* border: 1px solid green; */
+    background-color: rgb(34, 33, 33);
+    /* margin-left: 400px; */
+    /* margin-top: 80px; */
+    border-radius: 5px;
+    /* margin-bottom: 50px; */
+    /* position: relative; */
+    /* position: absolute; */
+    margin: 50px 100px 60px 350px ;
+    display: inline-flex;
+    box-shadow: 0px 0px 50px grey;
+    padding: 10px;
+}
+
+main #section5 #s5img{
+    height: 450px;
+    width: 380px;
+    /* border: 1px solid orange; */
+    /* top: 100px; */
+    /* position: absolute; */
+    /* left: 80px; */
+    border-radius: 5px;
+    margin: 20px auto;
+    margin-left:-250px ;
+    /* overflow: hidden; */
+
+}
+main #section5 #s5img #section5img{
+    height: 450px;
+    width: 380px;
+    /* background-color: rgb(4, 4, 24); */
+    border-radius: 5px;
+    /* position: absolute; */
+    /* overflow:scroll; */
+    
+}
+
+main #section5 #section5_content{
+    height: 400px;
+    width: 420px;
+    margin: 30px 180px 30px auto;
+    /* border: 1px solid orange; */
+    /* margin-top: 30px; */
+    padding: 20px;
+
+}
+
+main #section5 #section5_content p{
+    font-size: 16px;
+    color: white;
+}
+
+main #section5 #section5_content h1{
+    font-size: 50px;
+    color: white;
+    margin: 10px auto;
+}
+
+main #section5 #section5_content pre{
+    font-size: 14px;
+    color: white;
+}
+
+main #section5 #section5_content h4{
+    font-size: 20px;
+    color: white;
+}
+
+/* ------ footer styling------- */
+
+footer{
+    background-color: black;
+    height: 200px;
+    padding: 10px;
+    position: relative;
+}
+
+footer #footerlogo{
+    /* border: 1px solid white; */
+    height: 120px;
+    display: inline-flex;
+    margin: 15px 8px;
+}
+
+footer #footerlogo #footer_logoimg{
+    height: 50px;
+    width: 150px;
+    background-color: rgba(221, 72, 72, 0.279);
+    padding: 10px 10px 0px 10px;
+    margin: 20px 70px;
+    border-radius: 10px;
+}
+footer #footerlogo #footer_logoimg span{
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    position: absolute;
+    left: 190px;
+    top: 63px;
+    /* bottom:30px; */
+    
+}
+
+footer #footerlogo #footer_logoimg #Flogoimg{
+    height: 40px;
+    width: 80px;
+    /* background-color: rgb(221, 72, 72); */
+}
+
+footer #footerlogo #social-logo{
+    height: 65px;
+    /* width: 0px; */
+    /* background-color: white; */
+    /* border: 1px solid red; */
+    padding: 2px 2px 0px 2px;
+    margin: 20px 20px 0px 900px;
+}
+
+footer #footerlogo #social-logo #Slogo1,#Slogo2, #Slogo3{
+    /* display: inline-flex; */
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+    padding: 3px;
+    margin: 8px;
+}
+
+footer #footerlogo #social-logo #Slogo1{
+    background-color: white;
+}
+footer #footerlogo #social-logo #Slogo2{
+    background-color: white;
+}
+footer #footerlogo #social-logo #Slogo3{
+    background-color: white;
+}
+footer p{
+    color: white;
+    text-align: center;
+}
+
+footer p a{
+    color: red;
+    
+}

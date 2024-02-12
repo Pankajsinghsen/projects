@@ -1,0 +1,247 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: url("../Img/bgimagenature.jpg");
+    /* background-position:fixed; */
+    background-size:100% 100%;
+    background-position: 100%;
+    background-repeat: no-repeat;
+}
+
+#parent{
+    height: 750px;
+    width: 1000px;
+    /* background-color: ; */
+    /* border: 2px solid gray; */
+    padding: 3px;
+    margin: 20px 200px;
+    /* border-radius: 15px; */
+    display: inline-flex;
+}
+
+#parent .box{
+    margin:auto 50px;
+}
+
+/* here is the login div styling */
+
+#parent #login{
+    height: 380px;
+    width: 400px;
+    background-color: whitesmoke;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+#parent #login #formlogin{
+    height: 90%;
+    width: 90%;
+    padding: 5px;
+    /* border: 1px solid rgb(151, 42, 42); */
+    position: relative;
+    margin: 10px auto;
+}
+
+#parent #login #formlogin .btn{
+    height: 30px;
+    width: 60%;
+    margin: 20px auto;
+    border: 1px solid gray;
+    text-align: center;
+    padding: 2px;
+    font-size: 20px;
+    border-radius: 50px;
+}
+
+#parent #login #formlogin #btn2{
+    height: 30px;
+    width: 100px;
+    background-color: rgba(244, 240, 239, 0.189);
+    border-radius: 50px;
+    /* margin: 3px; */
+    left: 51.5%;
+    border: none;
+    position:absolute;
+}
+
+#parent #login #formlogin .btn #btn1{
+    height: 30px;
+    width: 100px;
+    /* background-color: rgba(255, 51, 0, 0.892); */
+    background-image: linear-gradient(to right,red,yellow);
+    border-radius: 50px;
+    /* margin: 3px; */
+    right: 51.5%;
+    border: none;
+    position:absolute;
+    z-index: 1;
+}
+
+#parent #login #formlogin .logoimg{
+    /* display: inline-block; */
+    margin: 5px 80px;
+    /* border: 1px solid green; */
+    padding: 5px;
+    
+}
+#parent #login .logoimg .image{
+    height: 35px;
+    width: 35px;
+    background-color: rgb(255, 51, 0);
+    border-radius: 50%;
+    padding: 1px;
+    margin: 5px 10px;
+}
+
+#parent #login #formlogin input[type="email"]{
+    width: 90%;
+    height: 35px;
+    background-color: whitesmoke;
+    outline: none;
+    border: none;
+    margin: 5px 5%;
+    border-bottom: 1px solid grey;
+}
+
+#parent #login #formlogin input[type="password"]{
+    width: 90%;
+    height: 35px;
+    background-color: whitesmoke;
+    outline: none;
+    border: none;
+    margin: 5px 5%;
+    border-bottom: 1px solid grey;
+}
+
+#parent #login #formlogin input[type="submit"]{
+    width: 80%;
+    height: 35px;
+    background-image: linear-gradient(to right,red,yellow);
+    outline: none;
+    border: none;
+    margin: 5px 10%;
+    border-radius: 20px;
+}
+
+#parent #login #formlogin input[type="checkbox"]{
+    color: grey;
+    margin-left: 20px;
+}
+
+#parent #login #formlogin label{
+    color: grey;
+}
+
+/* here is the register div styling */
+
+#parent #register{
+    height: 420px;
+    width: 400px;
+    background-color: whitesmoke;
+    padding: 5px;
+    border-radius: 5px;
+    float: right;
+    margin-top: 280px;
+}
+
+#parent #register #formreg{
+    height: 60%;
+    width: 90%;
+    padding: 5px;
+    /* border: 1px solid rgb(151, 42, 42); */
+    position: relative;
+    margin: 10px auto;
+}
+
+#parent #register #formreg .btn{
+    height: 30px;
+    width: 60%;
+    margin: 20px auto;
+    border: 1px solid gray;
+    text-align: center;
+    padding: 2px;
+    font-size: 20px;
+    border-radius: 50px;
+}
+
+#parent #register #formreg .btn #btn3{
+    height: 30px;
+    width: 100px;
+    background-color: rgb(244, 240, 239);
+    border-radius: 50px;
+    /* margin: 3px; */
+    right: 51.5%;
+    border: none;
+    position:absolute;
+}
+
+#parent #register #formreg .btn #btn4{
+    height: 30px;
+    width: 100px;
+    background-image: linear-gradient(to right,red,yellow);
+    border-radius: 50px;
+    /* margin: 3px; */
+    left: 51.5%;
+    border: none;
+    position:absolute;
+    z-index: 1;
+}
+
+#parent #register #formreg .logoimg{
+    /* display: inline-block; */
+    margin: 5px 80px;
+    /* border: 1px solid green; */
+    padding: 5px;
+    
+}
+#parent #register #formreg .image{
+    height: 35px;
+    width: 35px;
+    background-color: rgb(255, 51, 0);
+    border-radius: 50%;
+    padding: 1px;
+    margin: 5px 10px;
+}
+
+#parent #register #formreg input[type="email"]{
+    width: 90%;
+    height: 35px;
+    background-color: whitesmoke;
+    outline: none;
+    border: none;
+    margin: 5px 5%;
+    border-bottom: 1px solid grey;
+}
+
+#parent #register #formreg input[type="password"]{
+    width: 90%;
+    height: 35px;
+    background-color: whitesmoke;
+    outline: none;
+    border: none;
+    margin: 5px 5%;
+    border-bottom: 1px solid grey;
+}
+
+#parent #register #formreg input[type="submit"]{
+    width: 80%;
+    height: 35px;
+    background-image: linear-gradient(to right,red,yellow);
+    outline: none;
+    border: none;
+    margin: 5px 10%;
+    border-radius: 20px;
+}
+
+#parent #register #formreg input[type="checkbox"]{
+    color: grey;
+    margin-left: 20px;
+}
+
+#parent #register #formreg label{
+    color: grey;
+}
+

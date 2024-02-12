@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login_Page_2</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            background-image: url("../Img/bgimgtree.jpg");
+            background-attachment: fixed;
+            background-size: cover;
+        }
+
+        #login {
+            height: 30%;
+            width: 30%;
+            /* border: 1px solid rgba(163, 19, 98, 0.552); */
+            color: white;
+            padding: 30px;
+            margin: 200px auto;
+            /* background-color: rgba(163, 19, 98, 0.552); */
+            /* box-shadow: 3px 3px 3px rgba(145, 59, 145, 0.705); */
+        }
+
+        #login h1 {
+            text-align: center;
+        }
+
+        #login #email {
+            width: 100%;
+            height: 40px;
+            margin: 3px;
+            background-color: rgba(255, 255, 255, 0.500);
+            border: none;
+            border-radius: 3px;
+            padding: 3px;
+        }
+
+        #login #password {
+            width: 100%;
+            height: 40px;
+            margin: 3px;
+            background-color: rgba(255, 255, 255, 0.500);
+            border: none;
+            border-radius: 3px;
+            padding: 3px;
+        }
+
+        #login #btnlogin {
+            width: 100%;
+            height: 40px;
+            margin: 3px;
+            background-color: rgba(163, 19, 98, 0.552);
+            border: none;
+            border-radius: 8px;
+            padding: 10px;
+            color: white;
+            font-size: 16px;
+        }
+        #login p{
+            text-align: center;
+        }
+
+        #login span{
+            /* text-align: right; */
+            margin-left: 55%;
+        }
+
+        #login a{
+            text-align: right;
+        }
+        #login #formlog {
+            position: relative;
+            /* width: 40%; */
+        }
+
+        #login #emailimg{
+            height: 30px;
+            width: 30px;
+            position: absolute;
+            top: 28px;
+            left: 10px;
+            border-radius: 50%;
+            
+        }
+
+        #login #passimg{
+            height: 30px;
+            width: 30px;
+            position: absolute;
+            top: 98px;
+            left: 10px;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="login">
+        <h1>Login</h1>
+        <form action="" id="formlog">
+            <br>
+            <img src="../Img/person.png" id="emailimg" alt=""> <input type="email" name="" id="email" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Enter Email">
+            <br><br>
+            <img src="../Img/lock.png" id="passimg" alt=""> <input type="password" name="" id="password" placeholder="&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Enter Password">
+            <br><br>
+            <input type="checkbox" id="remember"><label for="remember"> Remember Me? <span id="spnleft">Forgot me?</span></label><br><br>
+            <input type="submit" value="Login" id="btnlogin">
+            
+        </form>
+    </div>
+
+</body>
+
+</html>

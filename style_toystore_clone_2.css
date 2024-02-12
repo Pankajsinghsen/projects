@@ -1,0 +1,983 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    height: 100px;
+    width: 100%;
+    /* border: 1px solid red; */
+    position: fixed;
+}
+header #upperhead{
+    height: 40px;
+    width: 100%; 
+    background-color: rgb(113, 170, 28);
+    color: white;
+    /* padding:10px  5px; */
+    display: inline-flex;
+}
+
+header #upperhead #upper_left{
+    /* border: 1px solid black; */
+    width: 45%;
+    height: 30px;
+    margin: 3px auto;
+    padding: 2px;
+}
+
+header #upperhead #upper_left p{
+    font-size: 12px;
+    margin: 8px auto auto 100px;
+}
+header #upperhead #upper_right{
+    /* border: 1px solid white; */
+    width: 50%;
+    height: 33px;
+    /* background-color: white; */
+    margin: 5px auto;
+    padding: 2px;
+}
+header #upperhead #upper_right .urimg{
+    height: 18px;
+    width: 18px;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 2px;
+    margin: 2px 5px;
+    border-radius: 5px;
+    transition: transform;
+    transition-duration: 500ms;
+    transition-delay: 10ms;
+}
+header #upperhead #upper_right .urimg:hover{
+    background-color: whitesmoke;
+    /* padding: 3px; */
+    transform: scale(1.2,1.2);
+}
+
+header #upperhead #upper_right #urlogo1{
+    margin-left: 500px;
+}
+header #lowerhead{
+    display: inline-flex;
+    background-color: white;
+    width: 100%;
+    height: 60px;
+    /* position: relative; */
+}
+header #lowerhead #lh1{
+    height: 40px;
+    width: 150px;
+    /* border: 1px solid red; */
+    margin: 5px 10px 5px 100px;
+    padding: 5px;
+}
+header #lowerhead #lh1 p{
+    font-size: 25px;
+    text-align: center;
+    margin: 6px auto;
+}
+header #lowerhead nav{
+    height: 40px;
+    width: 600px;
+    /* border: 1px solid orange; */
+    margin: 5px 60px 5px 10px;
+    padding: 5px;
+}
+header #lowerhead nav ul{
+    list-style: none;
+    margin-left: 10px;
+}
+header #lowerhead nav ul li{
+    display: inline-block;
+    /* background-color: greenyellow; */
+    height: 25px;
+    width: 70px;
+    margin: 8px 20px;
+    padding: 4px;
+}
+header #lowerhead nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+header #lowerhead nav ul li a:hover{
+    text-decoration: underline;
+    color: rgb(113, 170, 28);
+}
+header #lowerhead #lh3{
+    height: 30px;
+    width: 150px;
+    padding: 3px;
+    margin: 5px auto 5px 260px;
+    /* border: 1px solid green; */
+}
+header #lowerhead #lh3 ul{
+    list-style: none;
+    margin: 2px 5px;
+}
+
+header #lowerhead #lh3 ul li{
+    display: inline-block;
+    margin: 5px 5px;
+}
+header #lowerhead #lh3 ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+
+header #lowerhead #lh3 ul li #lh3img{
+    height: 20px;
+    width: 20px;
+    /* position: absolute; */
+    /* bottom: 25px; */
+    margin: auto 5px;
+}
+header #lowerhead #lh3 ul li span{
+    background-color: rgb(113, 170, 28);
+    height: 10px;
+    width: 10px;
+    font-size: 10px;
+    padding: 2px;
+    border-radius: 50px;
+    color: white;
+    /* margin-bottom: 10px; */
+}
+main{
+    background-color: whitesmoke;
+}
+main #section1{
+    /* height: 80vh; */
+    height: 650px;
+    background-image: url("../img/toystoreimg.jpg");
+    background-size: 100% 100%;
+    background-position: fixed;
+}
+main #section1 #catalog{
+    height: 250px;
+    width: 550px;
+    /* border: 1px solid white; */
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.0);
+    margin: 0px auto;
+    padding: 25px;
+    color: white;
+    
+}
+main #section1 #catalog:hover{
+    background-color: white;
+    box-shadow: 0px 0px 800px white;
+    color: black;
+}
+main #section1 #catalog p{
+    color: green;
+    font-size: 15px;
+    text-align: center;
+    margin: 2px;
+    text-shadow: 0px 0px 20px white;
+}
+main #section1 #catalog h2{
+    font-size: 45px;
+    text-align: center;
+    margin: 4px;
+    text-shadow: 0px 0px 80px rgba(113, 170, 28, 0.499);
+}
+main #section1 #catalog #btncatalog{
+    background-color: rgb(113, 170, 28);
+    height: 45px;
+    width: 150px;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    padding: 2px;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    margin: 5px 200px;
+    font-weight: 700;
+}
+main #section1 #catalog #btncatalog:hover{
+    background-color: whitesmoke;
+    color: rgb(113, 170, 28);
+    box-shadow: 0px 0px 100px rgb(113, 170, 28);
+}
+
+/* section2 styling start here */
+
+main #section2{
+    height: 250px;
+    width: 85%;
+    /* background-color: white; */
+    /* border: 1px solid black; */
+    display: inline-flex;
+    padding: 10px;
+    margin:5% 92px;
+    
+}
+main #section2 #s2left{
+    height: 150px;
+    width: 700px;
+    background-color: rgb(255, 200, 0);
+    margin: 30px 30px 10px 50px;
+    padding: 15px;
+    border-radius: 15px;
+    display: inline-flex;
+    
+}
+main #section2 #s2left:hover{
+    box-shadow: 0px 0px 20px rgba(255, 200, 0, 0.5);
+}
+main #section2 #s2left .imgbox1{
+    /* height: 100px; */
+    width: 40%;
+    /* border: 1px solid #C41589; */
+}
+main #section2 #s2left .s2img{
+    height: 200px;
+    width: 200px;
+}
+main #section2 #s2left #s2lcontent{
+    width: 60%;
+    height: 100px;
+    /* border: 1px solid red; */
+}
+main #section2 #s2left #s2lcontent h2{
+    color: white;
+    font-size: 32px;
+    /* text-align: center; */
+    margin: 15px auto;
+}
+main #section2 #s2left #s2lcontent button{
+    background-color: white;
+    height: 35px;
+    width: 150px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    margin: 10px auto;
+    padding: 8px;
+    font-size: 15px;
+}
+
+main #section2 #s2left #s2lcontent button:hover{
+    box-shadow: 5px 5px 10px rgba(128, 128, 128, 0.651);
+    height: 38px;
+    width: 160px;
+}
+
+main #section2 #s2right{
+    height: 150px;
+    width: 700px;
+    background-color: rgb(249, 32, 166);
+    margin: 30px 50px 10px 30px;
+    padding: 15px;
+    border-radius: 15px;
+    display: inline-flex;
+}
+main #section2 #s2right:hover{
+    box-shadow: 0px 0px 20px rgba(249, 32, 166, 0.5);
+}
+main #section2 #s2right .imgbox1{
+    /* height: 100px; */
+    width: 40%;
+    /* border: 1px solid black; */
+}
+main #section2 #s2right .s2img{
+    height: 200px;
+    width: 200px;
+}
+
+main #section2 #s2right #s2rcontent{
+    width: 60%;
+    height: 100px;
+    /* border: 1px solid green; */
+}
+main #section2 #s2right #s2rcontent h2{
+    color: white;
+    font-size: 32px;
+    text-align: center;
+    margin: 15px 5px 15px auto;
+}
+main #section2 #s2right #s2rcontent button{
+    background-color: white;
+    height: 35px;
+    width: 150px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    margin: 10px auto 10px 100px;
+    padding: 8px;
+    font-size: 15px;
+}
+main #section2 #s2right #s2rcontent button:hover{
+    box-shadow: 5px 5px 10px rgba(128, 128, 128, 0.651);
+    height: 38px;
+    width: 160px;
+}
+
+/* section3 styling start here */
+
+main #section3{
+    width: 90%;
+    height: 500px;
+    /* background-color: rgba(172, 255, 47, 0.253); */
+    margin: 10px 75px;
+    padding: 5px;
+}
+main #section3 #s3txtbtn{
+    width: 100%;
+    height: 25px;
+    padding: 10px;
+    /* border: 1px solid red; */
+}
+main #section3 #s3txtbtn span{
+    text-align: left;
+    font-size: 28px;
+    font-weight: 700;
+}
+main #section3 #s3txtbtn button{
+    /* position: absolute; */
+    width: 100px;
+    height: 25px;
+    margin: 3px 5px 40px 960px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid grey;
+    background-color: white;
+    padding: 5px;
+}
+main #section3 #s3txtbtn button:hover{
+    border-bottom: 2px solid rgb(113, 170, 28);
+}
+main #section3 .s3hr{
+    width: 98%;
+    height: 4px;
+    /* border: 1px solid grey; */
+    margin: 3px auto;
+    background-color: rgba(128, 128, 128, 0.199);
+}
+main #section3 .s3hr .s3hrgreen{
+    width: 220px;
+    background-color:rgb(113, 170, 28);
+    height: 2px;
+}
+
+main #section3 #s3toysimg{
+    height: 400px;
+    width: 98%;
+    margin: 20px 10px;
+    /* background-color: whitesmoke; */
+    display: inline-flex;
+}
+main #section3 #s3toysimg .toyimgs{
+    height: 300px;
+    width: 250px;
+    border: 1px solid green;
+    /* margin: 25px 35px; */
+    border-radius: 14px;
+    background-color: rgba(255, 255, 255, 0.375);
+    transition: transform;
+    transition-delay: 10ms;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in;
+}
+main #section3 #s3toysimg .toyimgs:hover{
+    box-shadow: 0px 0px 40px rgb(113, 170, 28);
+    /* height: 320px; */
+    /* width: 270px; */
+    /* padding:8px 8px; */
+    border: none;
+    transform: scale(1.1,1.1);
+}
+main #section3 #s3toysimg .imgs_stufftoy{
+    height: 180px;
+    width: 150px;
+    margin: 5px 45px; 
+}
+
+main #section3 #s3toysimg #toyimg1{
+    margin: 25px 15px 25px 85px;
+}
+main #section3 #s3toysimg #toyimg1 h4{
+    text-align: center;
+    font-weight: 100;
+}
+main #section3 #s3toysimg #toyimg1 button{
+    height: 30px;
+    width: 120px;
+    background-color: rgb(113, 170, 28);
+    color: white;
+    font-size: 13px;
+    text-align: center;
+    margin: 15px 65px;
+    border: none;
+    border-radius: 50px;
+    outline: none;
+}
+main #section3 #s3toysimg #toyimg2{
+    margin: 25px 15px 25px 15px;
+}
+main #section3 #s3toysimg #toyimg2 h4{
+    text-align: center;
+    font-weight: 100;
+}
+main #section3 #s3toysimg #toyimg2 button{
+    height: 30px;
+    width: 120px;
+    background-color: rgb(113, 170, 28);
+    color: white;
+    font-size: 13px;
+    text-align: center;
+    margin: 15px 65px;
+    border: none;
+    border-radius: 50px;
+    outline: none;
+}
+main #section3 #s3toysimg #toyimg3{
+    margin: 25px 15px 25px 15px;
+}
+main #section3 #s3toysimg #toyimg3 h4{
+    text-align: center;
+    font-weight: 100;
+}
+main #section3 #s3toysimg #toyimg3 button{
+    height: 30px;
+    width: 120px;
+    background-color: rgb(113, 170, 28);
+    color: white;
+    font-size: 13px;
+    text-align: center;
+    margin: 15px 65px;
+    border: none;
+    border-radius: 50px;
+    outline: none;
+}
+main #section3 #s3toysimg #toyimg4{
+    margin: 25px 75px 25px 15px;
+}
+main #section3 #s3toysimg #toyimg4 h4{
+    text-align: center;
+    font-weight: 100;
+}
+main #section3 #s3toysimg #toyimg4 button{
+    height: 30px;
+    width: 120px;
+    background-color: rgb(113, 170, 28);
+    color: white;
+    font-size: 13px;
+    text-align: center;
+    margin: 15px 65px;
+    border: none;
+    border-radius: 50px;
+    outline: none;
+}
+
+/* section4 styling start here */
+
+main #section4{
+    width: 90%;
+    height: 500px;
+    /* background-color: rgba(172, 255, 47, 0.253); */
+    margin: 10px 75px;
+    padding: 5px;
+    /* position: relative; */
+}
+main #section4 #s4txtbtn{
+    width: 100%;
+    height: 25px;
+    padding: 10px;
+    /* border: 1px solid red; */
+}
+main #section4 #s4txtbtn span{
+    text-align: left;
+    font-size: 28px;
+    font-weight: 700;
+}
+main #section4 #s4txtbtn button{
+    /* position: absolute; */
+    width: 100px;
+    height: 25px;
+    margin: 3px 5px 40px 990px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid grey;
+    background-color: white;
+    padding: 5px;
+}
+main #section4 #s4txtbtn button:hover{
+    border-bottom: 2px solid rgb(113, 170, 28);
+}
+main #section4 .s4hr{
+    width: 98%;
+    height: 4px;
+    /* border: 1px solid grey; */
+    margin: 3px auto;
+    background-color: rgba(128, 128, 128, 0.199);
+}
+main #section4 .s4hr .s4hrgreen{
+    width: 200px;
+    background-color:rgb(113, 170, 28);
+    height: 2px;
+}
+main #section4 #s4woodtoysimg{
+    height: 400px;
+    width: 98%;
+    margin: 20px 10px;
+    /* background-color: whitesmoke; */
+    display: inline-flex;
+}
+main #section4 #s4woodtoysimg .s4woodimgs{
+    height: 300px;
+    width: 250px;
+    border: 1px solid green;
+    /* margin: 25px 35px; */
+    border-radius: 15px;
+    background-color: white;
+    transition: transform;
+    transition-delay: 10ms;
+    transition-duration: 450ms;
+    transition-timing-function: ease-in;
+}
+main #section4 #s4woodtoysimg .s4woodimgs:hover{
+    box-shadow: 0px 0px 40px rgb(113, 170, 28);
+    /* height: 320px; */
+    /* width: 260px; */
+    /* padding: 10px 10px; */
+    transform: scale(1.1,1.1);
+    border: none;
+}
+main #section4 #s4woodtoysimg .imgs_s4toy{
+    height: 180px;
+    width: 150px;
+    margin: 5px 45px; 
+}
+
+main #section4 #s4woodtoysimg #s4woodimg1{
+    margin: 25px 15px 25px 85px;
+}
+main #section4 #s4woodtoysimg #s4woodimg1 h4{
+    text-align: center;
+    font-weight: 100;
+}
+main #section4 #s4woodtoysimg #s4woodimg1 button{
+    height: 30px;
+    width: 120px;
+    background-color: rgb(113, 170, 28);
+    color: white;
+    font-size: 13px;
+    text-align: center;
+    margin: 15px 65px;
+    border: none;
+    border-radius: 50px;
+    outline: none;
+}
+
+main #section4 #s4woodtoysimg #s4woodimg2{
+    margin: 25px 15px 25px 15px;
+}
+main #section4 #s4woodtoysimg #s4woodimg2 h4{
+    text-align: center;
+    font-weight: 100;
+}
+main #section4 #s4woodtoysimg #s4woodimg2 button{
+    height: 30px;
+    width: 120px;
+    background-color: rgb(113, 170, 28);
+    color: white;
+    font-size: 13px;
+    text-align: center;
+    margin: 15px 65px;
+    border: none;
+    border-radius: 50px;
+    outline: none;
+}
+
+main #section4 #s4woodtoysimg #s4woodimg3{
+    margin: 25px 15px 25px 15px;
+}
+main #section4 #s4woodtoysimg #s4woodimg3 h4{
+    text-align: center;
+    font-weight: 100;
+}
+main #section4 #s4woodtoysimg #s4woodimg3 button{
+    height: 30px;
+    width: 120px;
+    background-color: rgb(113, 170, 28);
+    color: white;
+    font-size: 13px;
+    text-align: center;
+    margin: 15px 65px;
+    border: none;
+    border-radius: 50px;
+    outline: none;
+}
+
+main #section4 #s4woodtoysimg #s4woodimg4{
+    margin: 25px 75px 25px 15px;
+}
+main #section4 #s4woodtoysimg #s4woodimg4 h4{
+    text-align: center;
+    font-weight: 100;
+}
+main #section4 #s4woodtoysimg #s4woodimg4 button{
+    height: 30px;
+    width: 120px;
+    background-color: rgb(113, 170, 28);
+    color: white;
+    font-size: 13px;
+    text-align: center;
+    margin: 15px 65px;
+    border: none;
+    border-radius: 50px;
+    outline: none;
+}
+
+/* Section 5 styling start here */
+
+main #section5{
+    background-image: url("../Img/Taddyimg.jpg");
+    height: 500px;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+main #section5 #s4about{
+    height: 200px;
+    width: 700px;
+    /* border: 2px solid white; */
+    color: white;
+    text-align: center;
+    margin:0px auto;
+    padding: 20px 5px 10px 5px;
+}
+
+main #section5 #s4about h6{
+    margin: 20px auto;
+    font-size: 14px;
+    text-shadow: 0px 0px 20px green;
+}
+main #section5 #s4about h4{
+    font-size: 45px;
+    margin: 20px auto;
+    text-shadow: 0px 0px 30px rgb(113, 170, 28);
+}
+main #section5 #s4about p{
+    font-size: 15px;
+    margin: 20px auto;
+    text-shadow: 0px 0px 20px grey;
+}
+
+/* here the section 6 styling start */
+
+main #section6{
+    /* border: 1px solid red; */
+    height: 220px;
+    width: 95%;
+    margin: 30px auto 10px auto;
+    padding: 10px;
+}
+main #section6 #s6content{
+    height: 180px;
+    width: 600px;
+    margin: 20px auto;
+    /* background-color: grey; */
+    padding: 10px;
+    text-align: center;
+}
+main #section6 #s6content p{
+    font-size: 15px;
+    color: rgb(113, 170, 28);
+    margin: 20px auto;
+}
+main #section6 #s6content h1{
+    font-size: 35px;
+    margin: 20px auto;
+    font-weight: 200;
+}
+
+main #section7{
+    /* background-color: whitesmoke; */
+    height: 520px;
+    width: 1200px;
+    /* border: 1px solid green; */
+    margin: 50px 110px;
+    
+}
+main #section7 #s7content{
+    display: inline-flex;
+}
+main #section7 #s7content #s7left{
+    height: 300px;
+    width: 500px;
+    /* border: 1px solid red; */
+    margin: 80px 80px 80px 20px;
+    padding: 10px;
+}
+main #section7 #s7content #s7left h2{
+    font-size: 35px;
+    font-weight: 100;
+    margin: 20px 10px;
+}
+main #section7 #s7content #s7left div{
+    height: 2px;
+    width: 80px;
+    background-color:rgb(113, 170, 28);
+    margin: 10px 10px;
+}
+main #section7 #s7content #s7left p{
+    color: grey;
+    margin: 30px 10px;
+    font-size: 15px;
+    line-height: 30px;
+}
+main #section7 #s7content #s7left button{
+    padding: 15px 30px;
+    background-color: rgb(113, 170, 28);
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 500;
+    transition: padding;
+    transition-duration: 0.25s;
+    transition-timing-function: ease-in;
+}
+main #section7 #s7content #s7left button:hover{
+    box-shadow: 0px 5px 10px gray;
+    padding: 17px 32px;
+}
+main #section7 #s7content #s7right{
+    height: 420px;
+    width: 520px;
+    /* border: 1px solid red; */
+    margin: 35px 20px 35px 60px;
+    border-radius: 20px;
+}
+main #section7 #s7content #s7right img{
+    height: 420px;
+    width: 520px;
+    border-radius: 20px;
+}
+main #section7 #s7subscribe{
+    height: 140px;
+    width: 1150px;
+    border: 1px solid whitesmoke;
+    background-color: white;
+    margin: 40px 25px;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 4px rgba(128, 128, 128, 0.501);
+    display: inline-flex;
+}
+main #section7 #s7subscribe #s7img{
+    height: 70px;
+    width: 70px;
+    background-color: rgb(113, 170, 28);
+    border-radius: 50%;
+    margin: 35px 30px;
+}
+main #section7 #s7subscribe #s7img img{
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+}
+main #section7 #s7subscribe #s7txt{
+    height: 70px;
+    width: 380px;
+    /* border: 1px solid green; */
+    padding: 12px;
+    margin: 25px -12px;
+}
+main #section7 #s7subscribe #s7txt p{
+    font-size: 30px;
+}
+main #section7 #s7subscribe #s7txt p span{
+    color:rgb(113, 170, 28);
+}
+main #section7 #s7subscribe #s7input{
+    height: 40px;
+    width: 580px;
+    padding: 10px 10px 25px 10px ;
+    /* border: 1px solid red; */
+    margin: 25px 10px 35px 25px;
+}
+main #section7 #s7subscribe #s7input input[type="text"]{
+    height: 45px;
+    padding: 2px;
+    width: 380px;
+    border-radius: 50px;
+    border: 1px solid grey;
+    outline: none;
+}
+
+main #section7 #s7subscribe #s7input button{
+    height: 48px;
+    width: 130px;
+    border: none;
+    outline: none;
+    background-color: rgb(113, 170, 28); 
+    padding: 2px; 
+    margin: 8px; 
+    border-radius: 25px;
+    color: white;
+    font-weight: 600;
+    transition: width height 100ms 25ms ease-in;
+}
+main #section7 #s7subscribe #s7input button:hover{
+    height: 50px;
+    width: 135px;
+    box-shadow: 0px 0px 5px rgba(128, 128, 128, 0.584);
+}
+main #section8{
+    width: 1200px;
+    /* border: 1px solid red; */
+    height: 600px;
+    margin: 200px 120px 0px 120px;
+    padding: 5px;
+}
+main #section8 #s8txt{
+    height: 100px;
+    width: 1000px;
+    padding: 15px;
+    /* border: 1px solid green; */
+    margin: 20px 90px;
+}
+main #section8 #s8txt p{
+    color: rgb(113, 170, 28);
+    text-align: center;
+    margin: 20px auto;
+    font-size: 15px;
+}
+main #section8 #s8txt h1{
+    text-align: center;
+    font-size: 38px;
+    font-weight: 100;
+    margin: 40px auto;
+}
+main #section8 #s8img{
+    height: 220px;
+    width: auto;
+    padding: 12px 5px;
+    margin: 50px auto 10px auto;
+    /* border: 1px solid red; */
+}
+main #section8 #s8img .imgs8{
+    height: 170px;
+    width: 170px;
+    margin:  5px 12px;
+    border-radius: 15px;
+    transition:tranform;
+    transition-delay: 50ms;
+    transition-duration: 8s;
+    transition-timing-function: ease-in;
+    
+}
+main #section8 #s8img .imgs8:hover{
+    transform: scale(1.1,1.1);
+    border: 1px solid rgba(128, 128, 128, 0.458);
+    box-shadow: 1px 2px 20px rgba(118, 115, 115, 0.576);
+}
+main #section8 button{
+    height: 45px;
+    width: 180px;
+    color: white;
+    background-color:rgb(113, 170, 28);
+    border: none;
+    border-radius: 30px;
+    outline: none;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 15px 44%;
+}
+footer{
+    /* margin-top: 50px; */
+    background-color: rgb(113, 170, 28);
+    height: 180px;
+    /* width: 100%; */
+    padding: 10px;
+}
+footer #lowerfooter{
+    /* border: 1px solid red; */
+    height: 80px;
+    /* width: 1280px; */
+    margin: 10px 65px;
+    display: inline-flex;
+    padding: 10px;
+}
+
+footer #lowerfooter #lf1{
+    height: 40px;
+    width: 120px;
+    /* border: 1px solid black; */
+    /* border: 1px solid red; */
+    margin: 5px 10px 5px 30px;
+    padding: 5px;
+}
+footer #lowerfooter #lf1 p{
+    font-size: 25px;
+    text-align: center;
+    margin: 6px auto;
+    color: white;
+}
+footer #lowerfooter nav{
+    height: 40px;
+    width: 550px;
+    /* border: 1px solid blue; */
+    margin: 5px 188px;
+    padding: 5px;
+}
+footer #lowerfooter nav ul{
+    list-style: none;
+    margin-left: 10px;
+}
+footer #lowerfooter nav ul li{
+    display: inline-block;
+    /* background-color: greenyellow; */
+    height: 25px;
+    width: 70px;
+    margin: 8px 25px;
+    padding: 4px;
+}
+footer #lowerfooter nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+footer #lowerfooter nav ul li a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+footer #lowerfooter #lf3{
+    /* border: 1px solid white; */
+    width: 150px;
+    height: 36px;
+    /* background-color: white; */
+    margin: 5px auto;
+    padding: 10px;
+}
+footer #lowerfooter #lf3 .lfimg{
+    height: 18px;
+    width: 18px;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 2px;
+    margin: 5px;
+    border-radius: 5px;
+    transition: transform;
+    transition-duration: 500ms;
+    transition-delay: 10ms;
+}
+footer #lowerfooter #lf3 .lfimg:hover{
+    background-color: whitesmoke;
+    transform: scale(1.2,1.2);
+    /* padding: 3px; */
+}
+
+footer #blank{
+    /* border: 1px solid whitesmoke; */
+    width: 1215px;
+    height: 1px;
+    margin: 0px auto 0px 120px;
+    background-color: white;
+}

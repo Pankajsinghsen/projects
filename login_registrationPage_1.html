@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login_Registration Page</title>
+    <style>
+/* first login table css  */
+        body{
+            /* background-color: cadetblue; */
+            background-color: rgb(50, 117, 232);
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            
+        }
+        h1{
+            font-size: 18px;
+        }
+        #loginpage{
+            border: 1px solid gray;
+            border-radius: 15px;
+            /* background-color: aliceblue; */
+            width: 400px;
+            height: 380px;
+            background-color: rgba(245, 245, 245, 0.75);
+            /* margin:200px auto; */
+            margin: 100px 50px 100px 200px;
+            padding: 35px;
+            /* box-shadow: 3px 3px 5px gray; */
+            display: inline-block;
+        }
+
+        #loginpage h1{
+            color: gray;
+            text-align: left;
+        }
+
+        #loginpage #email{
+            width:100%;
+            height:35px;
+            margin:5px;
+            border-radius: 5px;
+            border: 1px solid gray;
+        }
+
+        #loginpage #password{
+            width:100%;
+            height:35px;
+            margin:5px;
+            border-radius: 5px;
+            border: 1px solid gray;
+        }
+
+        #loginpage #login{
+            width:100%;
+            height:10%;
+            /* margin:auto; */
+            border-radius: 5px;
+            border: 1px solid rgb(206, 42, 96);
+            background-color: rgb(206, 42, 96);
+            /* box-shadow: 3px 3px 3px rgb(206, 42, 96); */
+            box-shadow: 3px 3px 3px gray;
+            color: white;
+            font-size: 15px;
+            margin: 5px;
+            padding: 10px;
+        }
+
+        #loginpage #remember{
+            background-color: rgb(206, 42, 96);
+            color: white;
+            margin:5px;
+        }
+
+        #loginpage .forgetpass{
+            text-align: right;
+            color: gray;
+        }
+
+        #loginpage .signup{
+            text-align: center;
+            color: gray;
+        }
+
+/* second table css */
+        h1{
+            font-size: 18px;
+        }
+        #loginpage1{
+            border: 1px solid gray;
+            border-radius: 15px;
+            /* background-color: aliceblue; */
+            width: 400px;
+            height:500px;
+            background-color: rgba(245, 245, 245, 0.75);
+            margin:100px 100px 100px 50px ;
+            padding: 35px;
+            /* box-shadow: 3px 3px 5px gray; */
+            display: inline-block;
+        }
+
+        #loginpage1 h1{
+            color: gray;
+            text-align: left;
+        }
+
+        #loginpage1 #email1{
+            width:100%;
+            height:35px;
+            margin:5px;
+            border-radius: 5px;
+            border: 1px solid gray;
+        }
+
+        #loginpage1 #password1{
+            width:100%;
+            height:35px;
+            margin:5px;
+            border-radius: 5px;
+            border: 1px solid gray;
+        }
+
+        #loginpage1 #login1{
+            width:100%;
+            height:10%;
+            /* margin:auto; */
+            border-radius: 5px;
+            border: 1px solid rgb(206, 42, 96);
+            background-color: rgb(206, 42, 96);
+            /* box-shadow: 3px 3px 3px rgb(206, 42, 96); */
+            box-shadow: 3px 3px 3px gray;
+            color: white;
+            font-size: 15px;
+            margin: 5px;
+            padding: 10px;
+        }
+
+        #loginpage1 #remember1{
+            background-color: rgb(206, 42, 96);
+            color: white;
+            margin:5px;
+        }
+
+        #loginpage1 .forgetpass1{
+            text-align: right;
+            color: gray;
+        }
+
+        #loginpage1 .signup1{
+            text-align: center;
+            color: gray;
+        }
+        #loginpage1 #or{
+            border: 1px solid grey;
+            height: 25px;
+            width: 25px;
+            font-size: 10px;
+            padding: 5px auto 1px;
+            color: grey;
+            text-align: center;
+        }
+        #loginpage1 pre{
+            color: gray;
+            text-align: center;
+        }
+        #loginpage1 span{
+            border: 2px solid gray;
+            /* margin: 0px; */
+            padding: 2px;
+            border-radius: 5px;
+        }
+        /* #loginpage1 #icons{
+            width: 100%;
+
+        } */
+        #loginpage1 .logo{
+            margin: auto 20px;
+            display: inline-block;
+        }
+        #loginpage1 .imglog{
+            width:40px;
+            border-radius: 50%;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- first login table  -->
+    <div id="loginpage">
+        <h1>LOGIN</h1>
+        <form action="">
+            <label for="email">Email</label><br>
+            <input type="email" id="email" placeholder="Enter Email"><br><br>
+
+            <label for="password">Password</label><br>
+            <input type="password" id="password" placeholder="Enter password"><br>
+
+            <input type="checkbox" id="remember"><label for="remember"> Remember me?</label> <br>
+            
+            <input type="submit" value="LOGIN" id="login"><br>
+            <p class="forgetpass">Forgot Password</p><br>
+            <p class="signup">Need an account? <a class="signup" href="#">SIGN UP</a></p>
+        </form>
+    </div>
+
+    <!-- second login table -->
+    <div id="loginpage1">
+        <h1>LOGIN</h1>
+        <form action="">
+            <label for="email1">Email</label><br>
+            <input type="email" id="email1" placeholder="Enter Email"><br><br>
+
+            <label for="password1">Password</label><br>
+            <input type="password" id="password1" placeholder="Enter password"><br>
+
+            <input type="checkbox" id="remember1"><label for="remember1"> Remember me?</label> <br>
+            
+            <input type="submit" value="LOGIN" id="login1"><br>
+            <p class="forgetpass1">Forgot Password</p><br>
+            <pre>--------------------------<span>OR</span>--------------------------</pre>
+            <br>
+            <div id="icons" align="center">
+                <div class="logo"><img class="imglog" src="../Img/google.png" alt="logo"></div>
+                <div class="logo"><img class="imglog" src="../Img/facebook.png" alt="logo"></div>
+                <div class="logo"><img class="imglog" src="../Img/linkedin.png" alt="logo"></div>
+            </div>
+            <p class="signup1">Need an account? <a class="signup1" href="#">SIGN UP</a></p>
+        </form>
+    </div>
+</body>
+</html>
